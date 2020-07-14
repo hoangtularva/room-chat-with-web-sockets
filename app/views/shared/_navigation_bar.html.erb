@@ -7,7 +7,7 @@
   <% if current_user %>
     <div class="dropdown">
       <a class="nav-link" href="#" >
-        <img class="avatar" src="<%= gravatar_url(current_user) %>">
+        <img class="avatar" src="<%= current_user.gravatar_url %>">
         <%= current_user.username %>
       </a>
 

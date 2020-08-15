@@ -7,3 +7,7 @@
 * Install yarn install --check-files
 
 * rails db:migrate
+
+* bundle install
+
+* rails s 
